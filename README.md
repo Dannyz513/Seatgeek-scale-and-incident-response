@@ -4,6 +4,8 @@
 
 A capstone project bringing together auto-scaling, monitoring, and automated incident response into one coherent system: infrastructure that stays lean in steady state, scales *ahead of* known traffic spikes (not just reactively), and turns every alarm into a permanent, queryable record instead of a notification someone might miss.
 
+![Architecture diagram](./screenshots/architecture.svg)
+
 **Full design document, including trade-offs and what I'd change at 10x scale:** [`DESIGN.md`](./DESIGN.md)
 
 ![Terraform](https://img.shields.io/badge/Terraform-1.15-623CE4?logo=terraform&logoColor=white)
